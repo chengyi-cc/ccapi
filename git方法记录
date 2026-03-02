@@ -1,0 +1,16 @@
+git add .                          # 暂存所有改动（或指定文件）
+git commit -m "描述你改了什么"      # 记录这次改动
+git push origin main               # 推到你的 GitHub fork
+
+
+git pull origin main    # 把 GitHub 上的最新代码拉到本地
+
+
+本地改代码
+    ↓ git add . && git commit && git push origin main
+GitHub 你的 fork（chengyi-cc/ccapi）
+    ↓ git pull origin main（在服务器上执行）
+服务器
+    ↓ docker compose up -d --build
+运行中的服务
+
