@@ -14,3 +14,12 @@ GitHub 你的 fork（chengyi-cc/ccapi）
     ↓ docker compose up -d --build
 运行中的服务
 
+
+git commit -am "增加方法记录2" && git push origin main
+
+
+git add . && git commit -m "增加方法记录2" && git push origin main
+
+git commit -m "增加方法记录2" ; git push origin main
+
+git add . ; git commit -m "增加方法记录2" ; git push origin main
